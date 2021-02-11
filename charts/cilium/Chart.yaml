@@ -70,4 +70,4 @@ kubeVersion: '>= 1.12.0-0'
 name: cilium
 sources:
 - https://github.com/cilium/cilium
-version: 1.9.4
+version: 1.9.5

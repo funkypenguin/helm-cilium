@@ -1,0 +1,28 @@
+---
+# Source: cilium/templates/hubble-ca-configmap.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hubble-ca-cert
+  namespace: kube-system
+data:
+  ca.crt: |-
+    -----BEGIN CERTIFICATE-----
+    MIIDJzCCAg+gAwIBAgIQB+Em7fWR2ykboFLH4XxcYTANBgkqhkiG9w0BAQsFADAe
+    MRwwGgYDVQQDExNodWJibGUtY2EuY2lsaXVtLmlvMB4XDTIxMDIxMTIwNTczOVoX
+    DTI0MDIxMTIwNTczOVowHjEcMBoGA1UEAxMTaHViYmxlLWNhLmNpbGl1bS5pbzCC
+    ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAK4T66dhrQAzX/pKY8byDLMJ
+    ZrjquuhKsq0IUuGnsvW0QE8JAZmXo5mr0PMIm+z5YN4DGWgc2EyDE9x0pgDhaI2z
+    j05RK/VluIO04ya62VcB2ENzwfPVQETQO81r0MZwcyC0FN3qo528NWvES5ozTIFh
+    1H1VhDSlnhxSsvHOi7+SlwFdwwNk04kTF5YUpvR+jLs+J5xldAh4yvh8jL4ESich
+    djWpl3mE7xthHKNR0wUqrNvVxo/HKn7ZFPdPWQ9WWgyvjwGEW4etNgCjka5i4r3z
+    M5T1NMfX5Cdu1w/8GFLe8+YFc7v0+z/6FO9f5D3x3/XeKvL3eHZ29HSybRDcSyEC
+    AwEAAaNhMF8wDgYDVR0PAQH/BAQDAgKkMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggr
+    BgEFBQcDAjAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBQweGkrKE0WKpqIgFjm
+    Zr/Gg1/MMDANBgkqhkiG9w0BAQsFAAOCAQEApTI6OM+722QotQvCBFgl81rk2mQx
+    y49hlzAAz4HceM7Y1Y+R1XrZ70E4255+YzQjgkbncDu+YF2bjYXgyBczP5i2lQ50
+    YOEPfQIGA6K25I4lmyCfbgNmL2ddb9guFp2Gd1CQJJ/2WywHbSioN2MQFNtP4O5p
+    31ytxhoXprEympQ/s5Uradl5s2D61lWSk1V05Y8HpXy7beZUFdYwvC6oJetFgB9P
+    Vf+WvmWlL2vbGkpXWVJRhjnRonSVg1ExpwC7jT/NT5vL88yh2bca40+Fi3Z+Pe2t
+    dF57hQYFGYQR4SzoeXxyDttLcrsZfNlKQ8MtFeh+mUNARuNrCNpjh5jIcQ==
+    -----END CERTIFICATE-----
